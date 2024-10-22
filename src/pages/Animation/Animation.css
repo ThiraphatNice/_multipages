@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(223, 211, 211);
+}
+
+#container{
+    margin: 0px auto;
+    width: fit-content;
+    border: 1px solid rgb(2, 0, 95);
+    border-radius: 0.5rem;
+    background-color: hwb(0 100% 0%);
+}
+
+#field{
+    /* variable */
+    height: 600px;
+    width: 1000px;
+    /* fixed */
+    border: 1px solid rgb(0, 0, 0);
+    margin: 10px ;
+    background-image: url(./IMG/T/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.5rem;
+}
+#control{
+    margin: 10px;
+    /* border: 1px solid rgb(62, 23, 178); */
+}
+
+#ball{
+    /* fixed */
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(167, 0, 0);
+    border-radius: 50%;
+    position: relative;
+    background-position: center;
+    background-size: 120%;
+    /* variable */
+    height: 50px;
+    width:  50px;
+    /* background-image: url(./IMG/png-transparent-basketball-illustration-basketball-sports-equipment-sports-league-woodville-tompkins-institute-basketball-sport-orange-team-thumbnail-removebg-preview.png); */
+    transform: rotate(0deg);
+    background-repeat: no-repeat;
+}
+
+.conbox{
+    float: right;
+}
+
